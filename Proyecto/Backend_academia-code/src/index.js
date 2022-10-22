@@ -1,28 +1,22 @@
 const express = require('express')
 const app = express()
 const morgan = require('morgan')
-const productos = require('./rutas/pro_data.json')
+
 //configuraciones
 app.set('port', process.env.PORT || 8081)
 app.set('json spaces',2)
 //middleware
+
+
 app.use(morgan('dev'))
-app.use(express.json())//permite al servidor recibir y entender datos json
-app.use(express.urlencoded({extended:false}))//permitir recibir info de formularios datos simples
-app.get('/productos',(req, res)=>{
-    res.json(productos)
-})
-
-//rutas
-
-
+app.use(express.json())//
 
 
 //API
 app.get('/',(req,res)=>{
-    res.send('ruta para la operacion leer')
+    res.send('Pagina de inicio')
 })
-app.get('/:color/:modelo',(req,res)=>{
+app.get('/cursos',(req,res)=>{
     const color = req.params.color
     const modelo = req.params.modelo
     res.send(`/${color}/${modelo}`)
