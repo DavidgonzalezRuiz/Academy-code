@@ -1,0 +1,31 @@
+[
+    {
+      "id": "1",
+      "Curso": "Master en Python",
+      "precio": 75000,
+      "Profesor": "Lelio Cuervo",
+      "duracion":"54 horas"
+    },
+    {
+      "id": "2",
+      "Curso": "Master en POP",
+      "precio": 50000,
+      "Profesor": "Alvaro Garcia",
+      "duracion":"30 horas"
+    },
+    {
+      "id": "3",
+      "Curso": "Contruyendo mi primer Api",
+      "precio": 150000,
+      "Profesor": "Julio Porras",
+      "duracion":"72 horas"
+    },
+    {
+      "id": "4",
+      "Curso": "Maestro en HTML5 CSS3 Y JavaScrip",
+      "precio": 200000,
+      "Profesor": "Dario Gomez",
+      "duracion":"86 horas"
+    }
+    
+  ]
