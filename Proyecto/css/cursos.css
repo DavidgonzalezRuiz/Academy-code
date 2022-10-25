@@ -1,0 +1,119 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../imagenes/bg_tiendas.png);
+    color: #000;
+    background-size: 1920px 980px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.header{
+    background: #242826;
+    color: white;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    font-weight: 1000;
+    font-family:'Arial Narrow Bold', 'Arial Narrow Bold', sans-serif ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header img{
+    float: left;
+    position: absolute;
+    margin-left: -520px;
+    margin-top: -25px;
+}
+.header h2{
+    font-size: 60px;
+    letter-spacing: 0px;
+    padding-left: 0px;
+    text-shadow: 0px 1px 0px #0DE7E7 
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 1700px;
+    margin: 50px 20px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,auto);
+}
+
+.opciones{
+    height: 350px;
+    width: 680px;
+    border-radius: 4px;
+    font: bold;
+    font-size: 35px;
+    border: 5px double black;
+    color: #fff;
+    transition: 0.5s;
+}
+.opciones h3{
+    border-bottom: 3px solid #0DE7E7;
+    width: 680px;
+    margin-left: 0%;
+    text-align: center;
+    text-shadow: 0px 3px 3px black;
+
+}
+.opciones:hover{
+    border: 5px solid rgba(95, 95, 95, 0.7);
+    border-left: 20px solid #0DE7E7;
+    transition: 0.5s;
+}   
+
+#op1{
+    background-image: url(../imagenes/python_sintaxis.png);
+    background-position: center;
+    background-size: 690px 500px;
+    background-color:rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+.opciones p{
+    display: none;
+    transition: 0.5s;
+    background: rgba(95, 95, 95, 0.7);
+    font-size: 20px;
+    height: 280px;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: justify;
+}
+.opciones:hover h3{
+    background: rgba(95, 95, 95, 0.7);
+    width: auto;
+    text-align: left;
+    padding-left: 45px;
+    transition: 0.5s;
+}
+.opciones:hover p{
+    display:block;
+}
+#op2{
+    background-image: url(../imagenes/python_cursos.png);
+    background-size: 1180px 550px;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+#op3{
+    background-image: url(../imagenes/python_cursos.png);
+    background-size: 1180px 550px;
+    background-color:rgba(0, 0, 0, 0.5);
+
+}
+#op4{
+    background-image: url(../imagenes/python_cursos.png);
+    background-size: 1180px 550px;
+    background-color:rgba(0, 0, 0, 0.5);
+}
